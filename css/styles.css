@@ -170,3 +170,64 @@ margin-bottom:44px;
    line-height: 20px;
    color:#627382;
      }
+
+       #second-brain .second-container{
+    display: flex;
+    justify-content: space-around;
+    /* margin: 47px 38px 0 230px; */
+    align-items: center;
+    padding-top:120px;
+   margin:0 auto;
+
+  }
+   #second-brain .second-content {
+max-width:700px;
+height:396px;
+/* background-color: #F95555; */
+   }
+   #second-brain .second-content h5{
+    font-size:16px;
+    font-weight: 600;
+    line-height: 20px;
+    color:#30b868;
+    margin-bottom: 16px;
+   }
+    #second-brain .second-content h2{
+  font-size:48px;
+    font-weight: 900;
+    
+    color:#001931;
+    margin-bottom: 16px;
+    }
+    #second-brain .second-content h6{
+      font-size: 16px;
+      line-height: 20px;
+      color:#627382;
+      margin-bottom: 40px;
+      width:700px;
+    }
+    .check-text {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+ line-height: 20px;
+  font-size: 16px;
+  color: #001931;
+  margin-bottom: 16px;
+  font-weight: 700;
+}
+
+.check-text::before {
+  content: "✓";
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 18px;
+  height: 18px;
+  background-color: #22c55e; /* green */
+  color: white;
+  border-radius: 50%;
+  font-size: 12px;
+  font-weight: bold;
+}
+
