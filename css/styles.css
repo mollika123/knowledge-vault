@@ -70,7 +70,7 @@ border:2px solid #fff;
 opacity: 1;
 
 }
- .hero-content{
+ .hero-content,.testimonial-container{
   max-width:770px;
   margin:0 auto;
   padding-top:130px;
@@ -230,4 +230,22 @@ height:396px;
   font-size: 12px;
   font-weight: bold;
 }
+#testimonial .testimonial-container{
+  background-color:#F7F6F2 ;
+  max-width:1360px;
+  text-align: center;
+}
+ .testimonial-container .testimonial-content h4{
+ font-size: 40px;
+ font-weight: 900;
+ color:#001931;
+ margin-bottom:16px;
+ }
+  .testimonial-container .testimonial-content p{
+ font-size: 16px;
+ margin-bottom:24px;
+
+ color:#627382;
+ line-height: 24px;
+ }
 
