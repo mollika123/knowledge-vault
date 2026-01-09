@@ -153,6 +153,7 @@ margin-bottom:44px;
       width:322px;
       padding:70px 24px;
       border-radius: 8px;
+      gap:30px;
       box-shadow: 0 0 8px 0 #00000063 ;
     }
      .notes-container .notes-info .notes-card img{
@@ -232,11 +233,15 @@ height:396px;
   font-size: 12px;
   font-weight: bold;
 }
+#testimonial{
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
 #testimonial .testimonial-container{
   background-color:#F7F6F2 ;
   max-width:1360px;
   text-align: center;
-  padding:80px 0;
+  padding:120px 0;
 }
  .testimonial-container .testimonial-content h4{
  font-size: 40px;
